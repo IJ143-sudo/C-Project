@@ -1,0 +1,31 @@
+Sample Input 1:
+
+How many functions do you want to plot? 1
+
+Functions 1: 
+1. sin(x)
+2. cos(x)
+3. tan(x)
+4. exponential
+5.polynomial
+Choose a Number: 1
+
+Sample input 2:
+How many functions do you want to plot? 2
+
+Functions 1:
+1. sin(x)
+2. cos(x)
+3. tan(x)
+4. exponential
+5.polynomial
+Choose a Number: 1
+
+Functions 2:
+1. sin(x)
+2. cos(x)
+3. tan(x)
+4. exponential
+5.polynomial
+Choose a Number: 3
+

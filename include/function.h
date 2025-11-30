@@ -7,12 +7,12 @@
 typedef struct 
 {
     double (*func)(double x, void *extra); // pointer to the function
-    void *extra;                           // optional data (e.g., polynomial coefficients)
+    void *extra;                           // optional data of each function)
     const char *name;                      // name of function for legend
     const char *color;                     // ANSI color code for plotting
 } function;
 
-// Generic function creator
+// Generic function creator that will create a function and retur ndetails about it
 function createfunc(double (*f)(double, void*), void *extra, const char *name);
 
 #endif
